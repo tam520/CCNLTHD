@@ -1,0 +1,6 @@
+train: D:/CCNLTHD/archive/archive/images/train
+val: D:/CCNLTHD/archive/archive/images/val
+
+nc: 1  # Number of classes
+names: 
+  - license_plate
