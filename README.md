@@ -37,6 +37,7 @@ Accepts an image file and returns detected license plates.
 
 # Install libraries
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
 pip install -r requirements.txt
 
 # Run this cmd
