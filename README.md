@@ -32,25 +32,6 @@ Accepts an image file and returns detected license plates.
 **Request Payload:**
 `multipart/form-data` containing `file: <image_bytes>`
 
-**Success Response:**
-```json
-{
-  "filename": "parking_lot_1.jpg",
-  "detections": [
-    {
-      "plate_text": "63-B4 656.24",
-      "confidence": 88.45,
-      "bbox": {"x1": 150, "y1": 320, "x2": 450, "y2": 510}
-    },
-    {
-      "plate_text": "86-AH 048.10",
-      "confidence": 79.12,
-      "bbox": {"x1": 600, "y1": 340, "x2": 820, "y2": 520}
-    }
-  ],
-  "total_plates": 2,
-  "process_time_ms": 2150.45
-}
 ## how to set up
 
 
