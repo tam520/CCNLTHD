@@ -51,16 +51,13 @@ Accepts an image file and returns detected license plates.
   "total_plates": 2,
   "process_time_ms": 2150.45
 }
-# Activate venv trước
-.venv\Scripts\activate
+## how to set up
 
-# Cài torch với CUDA trước
+
+# Install libraries
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
-
-# Rồi cài phần còn lại
 pip install -r requirements.txt
 
-# Chạy server
+# Run this cmd
 uvicorn app.main:app --reload
-
-Sau khi xong thì chạy server và test tại http://localhost:8000/docs 
+test tại http://localhost:8000/docs 
